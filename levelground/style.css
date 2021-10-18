@@ -1,0 +1,302 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+img {
+    max-width: 100%;
+}
+header {
+    background-color: #66768A;
+    width: 100%;
+    display: flex;
+    padding-top: 1%;
+
+}
+.donate {
+    font: 'Montserrat', Helvetica, sans-serif;
+    color: #F1F1F1;
+    background-color: #161F2A;
+}
+
+header > nav > ul > li {
+    font-family: 'Montserrat';
+    text-align: left;
+    color:#F1F1F1;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+    list-style-type: none;
+    flex-direction: row;
+}
+
+#grit {
+    width: 100%;
+    height: 500px;
+    background-color: #66768A;
+}
+
+#grit > .mission > div {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    color: #F1F1F1;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    flex-direction: row;
+}
+
+
+h1 {
+    padding-top: 50px;
+    }
+}
+#grit > .mission > div > .video {
+    margin: auto;
+    padding-right: 5px;
+}
+h1 {
+font-family: 'Staatliches', impact;
+color: #F1F1F1;
+font-size: 80px;
+margin: auto;
+width: 100%;
+text-align: center;
+}
+.mission > p {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #F1F1F1;
+    font-size: 20px;
+    padding: 20px;
+}
+#why {
+    width: 100%;
+    height: 350px;
+    background-color: #F1F1F1;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-family: 'Staatliches', impact;
+    font-size: 18px;
+}
+
+h2 {
+    padding-top: 125px;
+    padding-bottom: 15px;
+    font-size: 50px;
+}
+
+#why > .purpose > p {
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20x;
+}
+
+#visit {
+    width: 100%;
+    background-color: #DBDFE2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Staatliches', impact;
+}
+p {
+    text-align: center;
+}
+
+.promo {
+    height: 160px;
+    width: 300px;
+    margin: auto;
+    background: #66768A;
+    margin-bottom: 20px;
+}
+
+.gym {
+    margin: 2em auto;
+    max-width: 300px;
+}
+
+.gym > button {
+    margin: auto;
+    font-family: 'Staatliches', impact;
+    font-size: 20px;
+    color: #161F2A;
+    width: 100%;
+    max-width: 10em;
+    height: 40px;
+    margin-top: 10px;
+    display: block;
+}
+
+.promotwo {
+    height: 160px;
+    width: 300px;
+    margin: auto;
+    background: #66768A;
+    margin-bottom: 20px;
+}
+
+.wevisit {
+    margin: 2em auto;
+    max-width: 300px;
+}
+.wevisit > button {
+    margin: auto;
+    font-family: 'Staatliches', impact;
+    font-size: 20px;
+    color: #161F2A;
+    width: 100%;
+    max-width: 10em;
+    height: 40px;
+    margin-top: 10px;
+    display: block;
+}
+#volunteer {
+    width: 100%;
+    height: 350px;
+    background-color: #F1F1F1;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-family: 'Staatliches', impact;
+    padding-top: 50px;
+}
+
+
+#volunteer > .involved > button {
+    margin: auto;
+    font-family: 'Staatliches', impact;
+    font-size: 20px;
+    color: #161F2A;
+    width: 10%;
+    height: 40px;
+    margin-top: 10px;
+}
+#volunteer > .involved > p {
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20x;
+    padding-top: 20px
+}
+
+h4 {
+    margin: auto;
+    font-size: 30px;
+}
+
+#volunteer > button {
+    margin: auto;
+}
+
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: #161F2A;
+}
+
+#bottominfo {
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #161F2A;
+    padding: 1%;
+}
+
+.left {
+    width: 50%;
+    height: 200px;
+    margin: none;
+    float: left;
+    color: #F1F1F1
+}
+
+.left > span {
+    color: #66768A
+}
+.socmedia {
+    display: flex;
+  }
+  .socmedia > div {
+    width: 50px;
+    height: 30px;
+    }
+
+li {
+    margin: 0;
+    display: inline;
+    padding-right: 10px;
+}
+.bottominfo > span {
+    font-size: 16px;
+    text-align: right;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+#bottominfo > .address {
+    text-align: left;
+    width: 200px;
+    height: 200px;
+    float: right;
+    color: #F1F1F1;
+
+}
+
+h6 {
+    font-size: 16px;
+    margin-bottom: 10px;
+
+}
+
+.address > p {
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Montserrat', helvetica, sans-serif;
+    padding: 1%;
+}
+
+
+.taxes {
+    width: 100%;
+    float: left;
+    border-top: 1px solid white;
+    padding: 1%;
+    color: #F1F1F1;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+
+}
+
+
+@media (min-width: 600px){
+    #visit > .flex {
+        display: flex;
+        padding-top: 70px;
+    }
+    .gym {
+        width: 20%;
+        max-width: inherit;
+    }
+    .wevisit {
+        width: 20%;
+        max-width: inherit;
+    }
+}
